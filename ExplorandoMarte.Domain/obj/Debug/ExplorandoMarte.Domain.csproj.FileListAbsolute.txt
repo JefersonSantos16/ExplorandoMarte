@@ -1,0 +1,4 @@
+G:\Teste Tecnico-Niuco\ExplorandoMarte\ExplorandoMarte.Domain\bin\Debug\ExplorandoMarte.Domain.dll
+G:\Teste Tecnico-Niuco\ExplorandoMarte\ExplorandoMarte.Domain\bin\Debug\ExplorandoMarte.Domain.pdb
+G:\Teste Tecnico-Niuco\ExplorandoMarte\ExplorandoMarte.Domain\obj\Debug\ExplorandoMarte.Domain.dll
+G:\Teste Tecnico-Niuco\ExplorandoMarte\ExplorandoMarte.Domain\obj\Debug\ExplorandoMarte.Domain.pdb

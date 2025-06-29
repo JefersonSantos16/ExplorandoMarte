@@ -10,8 +10,8 @@ namespace ExplorandoMarte.Domain.Entities
     {
         public int MaxX { get; }
         public int MaxY { get; }
-
-        private readonly HashSet<string> occupiedPositions = new();
+        
+        private readonly HashSet<string> occupiedPositions = new HashSet<string>();
 
         public Plateau(int maxX, int maxY)
         {

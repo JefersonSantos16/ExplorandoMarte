@@ -84,25 +84,22 @@ namespace ExplorandoMarte.Domain.Entities
                     next.X -= 1;
                     break;
                 default:
-                    throw new InvalidOperationException($"Invalid direction: {Direction}");
+                    throw new InvalidOperationException($"Direção inválida: {Direction}");
             }
 
             if (!plateau.IsInside(next))
-                throw new OutOfBoundsException($"Rover tried to move out of bounds to ({next.X}, {next.Y})");
+                throw new OutOfBoundsException($"A sonda tentou se mover para fora dos limites em ({next.X}, {next.Y})");
 
             if (plateau.IsOccupied(next))
-                throw new PositionConflictException($"Rover tried to move to an occupied position ({next.X}, {next.Y})");
+                throw new PositionConflictException($"A sonda tentou se mover para uma posição ocupada em ({next.X}, {next.Y})");
 
             plateau.Free(Position);
             Position = next;
-            plateau.MarkOccupied(Position);
         }
 
         public override string ToString()
-{
-    return $"{Position.X} {Position.Y} {Direction}";
+        {
+            return $"{Position.X} {Position.Y} {Direction}";
+        }
+    }
 }
-
-
-}
-} 

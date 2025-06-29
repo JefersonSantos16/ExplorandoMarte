@@ -1,0 +1,12 @@
+G:\Teste Tecnico-Niuco\ExplorandoMarte\ExplorandoMarte.Tests\obj\Debug\ExplorandoMarte.Tests.csprojResolveAssemblyReference.cache
+G:\Teste Tecnico-Niuco\ExplorandoMarte\ExplorandoMarte.Tests\bin\Debug\ExplorandoMarte.Tests.dll
+G:\Teste Tecnico-Niuco\ExplorandoMarte\ExplorandoMarte.Tests\bin\Debug\ExplorandoMarte.Tests.pdb
+G:\Teste Tecnico-Niuco\ExplorandoMarte\ExplorandoMarte.Tests\bin\Debug\ExplorandoMarte.App.dll
+G:\Teste Tecnico-Niuco\ExplorandoMarte\ExplorandoMarte.Tests\bin\Debug\ExplorandoMarte.Domain.dll
+G:\Teste Tecnico-Niuco\ExplorandoMarte\ExplorandoMarte.Tests\bin\Debug\nunit.framework.dll
+G:\Teste Tecnico-Niuco\ExplorandoMarte\ExplorandoMarte.Tests\bin\Debug\ExplorandoMarte.App.pdb
+G:\Teste Tecnico-Niuco\ExplorandoMarte\ExplorandoMarte.Tests\bin\Debug\ExplorandoMarte.Domain.pdb
+G:\Teste Tecnico-Niuco\ExplorandoMarte\ExplorandoMarte.Tests\bin\Debug\nunit.framework.pdb
+G:\Teste Tecnico-Niuco\ExplorandoMarte\ExplorandoMarte.Tests\bin\Debug\nunit.framework.xml
+G:\Teste Tecnico-Niuco\ExplorandoMarte\ExplorandoMarte.Tests\obj\Debug\ExplorandoMarte.Tests.dll
+G:\Teste Tecnico-Niuco\ExplorandoMarte\ExplorandoMarte.Tests\obj\Debug\ExplorandoMarte.Tests.pdb

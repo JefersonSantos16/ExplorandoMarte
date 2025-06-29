@@ -33,7 +33,13 @@ namespace ExplorandoMarte.Domain.Entities
 
         public override int GetHashCode()
         {
-            return HashCode.Combine(X, Y);
+            unchecked // evita overflow
+            {
+                int hash = 17;
+                hash = hash * 23 + X.GetHashCode();
+                hash = hash * 23 + Y.GetHashCode();
+                return hash;
+            }
         }
 
         public override string ToString()

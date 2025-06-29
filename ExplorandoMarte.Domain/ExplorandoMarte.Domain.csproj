@@ -43,15 +43,18 @@
     <Compile Include="Class1.cs" />
     <Compile Include="Commands\MoveCommand.cs" />
     <Compile Include="Commands\RotateLeftCommand.cs" />
+    <Compile Include="Commands\RotateRightCommand.cs" />
     <Compile Include="Entities\Plateau.cs" />
+    <Compile Include="Entities\Position.cs" />
     <Compile Include="Enums\Direction.cs" />
+    <Compile Include="Exceptions\OutOfBoundsException.cs" />
+    <Compile Include="Exceptions\PositionConflictException.cs" />
+    <Compile Include="Factories\CommandFactory.cs" />
     <Compile Include="Interfaces\ICommand.cs" />
     <Compile Include="Entities\Rover.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Exceptions\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

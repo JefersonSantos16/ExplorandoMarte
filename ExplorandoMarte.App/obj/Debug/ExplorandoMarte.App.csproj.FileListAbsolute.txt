@@ -1,0 +1,7 @@
+G:\Teste Tecnico-Niuco\ExplorandoMarte\ExplorandoMarte.App\bin\Debug\ExplorandoMarte.App.dll
+G:\Teste Tecnico-Niuco\ExplorandoMarte\ExplorandoMarte.App\bin\Debug\ExplorandoMarte.App.pdb
+G:\Teste Tecnico-Niuco\ExplorandoMarte\ExplorandoMarte.App\bin\Debug\ExplorandoMarte.Domain.dll
+G:\Teste Tecnico-Niuco\ExplorandoMarte\ExplorandoMarte.App\bin\Debug\ExplorandoMarte.Domain.pdb
+G:\Teste Tecnico-Niuco\ExplorandoMarte\ExplorandoMarte.App\obj\Debug\ExplorandoMarte.App.csprojResolveAssemblyReference.cache
+G:\Teste Tecnico-Niuco\ExplorandoMarte\ExplorandoMarte.App\obj\Debug\ExplorandoMarte.App.dll
+G:\Teste Tecnico-Niuco\ExplorandoMarte\ExplorandoMarte.App\obj\Debug\ExplorandoMarte.App.pdb
