@@ -1,0 +1,24 @@
+name: .NET Framework CI
+
+on: [push, pull_request]
+
+jobs:
+  build-and-test:
+    runs-on: windows-latest
+
+    steps:
+    - name: Checkout código-fonte
+      uses: actions/checkout@v2
+
+    - name: Instalar NuGet
+      uses: nuget/setup-nuget@v1.0.5
+
+    - name: Restaurar pacotes NuGet
+      run: nuget restore ExplorandoMarte.sln
+
+    - name: Build solução
+      run: msbuild ExplorandoMarte.sln /p:Configuration=Debug
+
+    - name: Executar testes
+      run: |
+        vstest.console.exe ExplorandoMarte.Tests\bin\Debug\ExplorandoMarte.Tests.dll
